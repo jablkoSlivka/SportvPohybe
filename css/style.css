@@ -32,6 +32,8 @@ body{
 	text-decoration: none;
 	background-color: cyan;
 	margin-right: 1vw;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
 }
 
 .sipky ul{
@@ -569,12 +571,17 @@ body{
 	background-blend-mode:multiply;
 }	
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
+	#NadpisNews{padding-top: 9vh;} 
+}
+
+@media only screen and (min-width: 950px) {
 	.container {width: 80%;}
 	#main {width: 70%;}
 	#sidebar {width: 30%;}
 	.title-box {width: 100%;}
 	.sipky{margin-top: 270vh;}
+	#NadpisNews{padding-top: 14vh;} 
 }
 
 @media only screen and (min-width: 1926px) {
@@ -584,7 +591,6 @@ body{
 	#novinkyH17{margin-top: 0vh;}
 	.sipky{margin-top: 130vh;}
 }
-
 
 
 

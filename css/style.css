@@ -1,0 +1,772 @@
+body{
+	background-color:#f4f4f4;
+	color:#556;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+#logo{
+	margin-bottom:2px;
+	padding-left: 20px;
+	background-image: url("../images/logo.png");
+	width:176px;
+	height: 40px;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.sipky{
+	overflow:hidden;
+	display: inline;
+	text-decoration: none;
+	position: absolute;
+	margin-top: 130vh;
+	padding-bottom: 8vh;
+}
+
+.sipky li{
+	overflow:hidden;
+	display: inline;
+	text-decoration: none;
+	background-color: cyan;
+	margin-right: 1vw;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
+}
+
+.sipky ul{
+	overflow:hidden;
+	display: inline;
+	text-decoration: none;
+}
+
+#sipkyPouzita{
+	background-color: yellow;
+}
+
+
+.textcontainer{
+	margin:auto;
+	overflow:hidden;
+	margin-right: 1px;
+	padding: auto;
+}
+
+#main-header-f{
+	background-color:#6CFA3A;
+	color:#fff;
+}
+
+#main-header-h{
+	background-color:#5aaaec;
+	color:#fff;
+}
+
+#main-header-b{
+	background-color:#df983c;
+	color:#fff;
+}
+
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar form{
+	display: inline;
+	margin: auto;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	padding-right:40px;
+}
+
+#showcaseF{
+	background-image:url('../images/showcase.jpg');
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:2vw;
+	text-align: center;
+}
+
+#showcaseF h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6;
+	padding-top:1.5vw;
+}
+
+#showcaseH{
+	background-image:url('../images/hokej.jpg');
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:2vw;
+	text-align: center;
+}
+
+#showcaseH h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6;
+	padding-top:1.5vw;
+}
+
+#showcaseB{
+	background-image:url('../images/basketball.jpg');
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:2vw;
+	text-align: center;
+}
+
+#showcaseB h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6;
+	padding-top:1.5vw;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:20px;
+	box-sizing: border-box;
+	padding-bottom: 25vh;
+}
+
+#main h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+	height: auto;
+	margin-bottom: 2.5vh;
+}
+
+#sidebar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	padding-right:3vw;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:30px;
+	margin-top: 2vh;
+}
+
+.title-box{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.title-box #goals{
+    font-size: 1.8em;
+}
+.team{
+    width: 100px;
+}
+.team img{
+    height: 54px;
+    width: 54px;
+}
+.matches-table{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 500px;
+}
+.match-tile{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.match-tile img{
+    width: 52px;
+    height: 52px;
+}
+.match-tile p{
+    font-size: 1.2rem;
+}
+
+.match-tile #goals{
+    font-size: 1.8rem;
+}
+.match-tile .team{
+    width: 100px;
+}	
+
+#textbar{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 160px;
+	width: 500px;
+	text-align: center;
+	line-height: 23px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	margin-right: 1vw;
+}
+
+
+#NadpisNews{
+	font-size: 25px;
+	text-align:left;
+	margin-inline-start: auto;
+	padding-top: 14.1vh;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	text-align: center;
+}
+
+#novinkyB1{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/B1.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+
+#novinkyB2{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/B2.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+	
+}	
+
+#novinkyB3{
+	float:left;
+	background: #888;
+	color:#fff;																															
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/B3.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyB4{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/B4.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyB5{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/B5.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyB6{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/B6.jpg');
+	background-blend-mode:multiply;
+	margin-top: auto;
+}	
+
+#novinkyF2{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/psg.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+
+#novinkyF1{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/AtlMad.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+	
+}	
+
+#novinkyF3{
+	float:left;
+	background: #888;
+	color:#fff;																															
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/AtleticoWinLaliga.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyF4{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/LilTitul.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyF5{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/VillaRealWin.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyF6{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/ChelseaWin.jpg');
+	background-blend-mode:multiply;
+	margin-top: auto;
+}
+
+#novinkyF7{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/F7.jpg');
+	background-blend-mode:multiply;
+	margin-top: auto;
+	margin-top: 16.48vh;
+}	
+
+#novinkyF8{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/F8.jpg');
+	background-blend-mode:multiply;
+	margin-top: auto;
+	margin-top: 16.48vh;
+}	
+
+#novinkyF9{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/F9.jpg');
+	background-blend-mode:multiply;
+	margin-top: auto;
+	margin-top: 16.48vh;
+}	
+
+#novinkyF10{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/F10.jpg');
+	background-blend-mode:multiply;
+	margin-top: auto;
+	margin-top: 16.48vh;
+}	
+
+#novinkyF11{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/F11.jpg');
+	background-blend-mode:multiply;
+	margin-top: auto;
+	margin-top: 16.48vh;
+}	
+
+#novinkyF12{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/F12.jpg');
+	background-blend-mode:multiply;
+	margin-top: auto;
+}	
+
+
+
+
+#novinkyH1{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/litvaH.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+
+#novinkyH2{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/SlovenskoVSbelarus.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+	
+}	
+
+#novinkyH3{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/DanskoWinNadSwedmi.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH4{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/SlovakiaVsUKHokej.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH5{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/BelarusWinSwedishLol.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH6{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/KazachstanHokej.jpg');
+	background-blend-mode:multiply;
+}	
+
+#novinkyH7{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/SlovenskoVyhraloNadRuskomSranda.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}
+
+#novinkyH8{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/SwitzVyhraliProtiNam.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH9{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/kazachDoStvrtfinale.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH10{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/VyhraliSmeNadDanmiNicu.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH11{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/SvajciariVyhraliNadBritmi.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH12{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/SvediNasPorazili.jpg');
+	background-blend-mode:multiply;
+}	
+
+#novinkyH13{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/StvrfinaleJetam.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH14{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/RIPprehralisme.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH15{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/NemciVyhrali.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH16{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/FiniVyhraliNadCeskom.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH17{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/USAmaBronz.jpg');
+	background-blend-mode:multiply;
+	margin-top: 16.48vh;
+}	
+
+#novinkyH18{
+	float:left;
+	background: #888;
+	color:#fff;
+	box-sizing: border-box;
+	height: 250px;
+	width: 500px;
+	margin-right: 1vw;
+	background-image:url('../images/KanadaMajsterSveta.jpg');
+	background-blend-mode:multiply;
+}	
+
+@media only screen and (min-width: 950px) {
+	.container {width: 80%;}
+	#main {width: 70%;}
+	#sidebar {width: 30%;}
+	.title-box {width: 100%;}
+	.sipky{margin-top: 246vh;}
+	#NadpisNews{padding-top: 11.1vh;}
+}
+
+
+@media only screen and (min-width: 1926px) {
+	#novinkyF5{margin-top: 0vh;}
+	#novinkyH5{margin-top: 0vh;}
+	#novinkyB5{margin-top: 0vh;}
+	#novinkyH11{margin-top: 0vh;}
+	#novinkyF11{margin-top: 0vh;}
+	#novinkyH17{margin-top: 0vh;}
+}
+
+@media only screen and (min-width: 1944px) {
+	.sipky{margin-top: 126vh;}
+}
+
+
+
+
+
